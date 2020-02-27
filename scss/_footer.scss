@@ -1,0 +1,32 @@
+footer {
+  background: #444444;
+  color: white;
+  position: relative;
+  min-height: 15vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  z-index: -2;
+
+  .footer-wrapper {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+      display: flex;
+
+      li {
+        margin-right: 3rem;
+      }
+    }
+  }
+
+  > img {
+    position: absolute;
+    bottom: -1rem;
+    right: 0;
+    z-index: -1;
+  }
+}
